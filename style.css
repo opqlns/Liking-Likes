@@ -1,0 +1,114 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities  */
+
+
+/* flex */
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.col {
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.sidebar h1{
+    margin: 20px;
+}
+
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: #17a2b8;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.head h2{
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+
+
+.body h2{
+    margin: 30px;
+}
+/* defaults */
+.btn{
+    background-color: yellow;
+    color: black;
+    width: 100px ;
+    height: 45px ;
+    border: 3px solid;
+    border-color: #000000;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: lighter;
+    box-shadow: 5px 5px black;
+    margin: 25px;
+    
+}
+
+/* nav-bar */
+
+.nav{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+}    
+
+.nav-title{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;  
+}
+
+
+.nav-links{
+    align-items: flex-end;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    align-items: center;
+}
+
+
+
+.user{
+    height: 200px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+}
+
+.profile-box{
+    height: 400px;
+    margin: 75px 30px;
+    border: 3px solid black;
+}
